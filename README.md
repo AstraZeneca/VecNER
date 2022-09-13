@@ -3,6 +3,7 @@
 
 <h3> vecner :  A set of tools for lexical-based NER </h3>
 
+![Maturity level-0](https://img.shields.io/badge/Maturity%20Level-ML--0-red)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
 [![mypy checked](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 [![black](https://camo.githubusercontent.com/d91ed7ac7abbd5a6102cbe988dd8e9ac21bde0a73d97be7603b891ad08ce3479/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64652532307374796c652d626c61636b2d3030303030302e737667)](https://pypi.org/project/black/)
@@ -299,11 +300,9 @@ def rule_chunker(
 <h2> Third Party Licenses </h2>
 
 Third Party Libraries licenses for the dependencies:
-
 [Spacy](https://github.com/explosion/spaCy) : [MIT License](https://github.com/explosion/spaCy/blob/master/LICENSE)\
 [Gensim](https://github.com/RaRe-Technologies/gensim) : [LGPL-2.1 license](https://github.com/RaRe-Technologies/gensim/blob/develop/COPYING)\
 [NLTK](https://github.com/nltk/nltk) : [Apache License 2.0](https://github.com/nltk/nltk/blob/develop/LICENSE.txt)\
-[Scipy](https://github.com/scipy/scipy) : [BSD 3-Clause "New" or "Revised" License](https://github.com/scipy/scipy/blob/main/LICENSE.txt)
 
 
 <h2> License </h2>

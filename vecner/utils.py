@@ -191,3 +191,18 @@ def merge_on_overlap(doc: object, drivers: _List[_Dict]) -> _List[_Dict]:
             new_ents.append(ent)
 
     return new_ents
+
+def cosine_similarity(a : _np.array, b: _np.array) -> float:
+    """
+    Computes the cosine similarity between two numpy vectors
+    Args:
+        a (_np.array): vector of size N
+        b (_np.array): vector of size N
+
+    Returns:
+        float: the cosine similarity
+    """
+
+    similarity_score =  _np.dot(a,b) / (_np.linalg.norm(a) * _np.linalg.norm(b))
+
+    return similarity_score

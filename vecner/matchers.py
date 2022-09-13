@@ -13,8 +13,7 @@ import spacy
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from spacy.matcher import PhraseMatcher
-from scipy import spatial
-from .utils import phrase_representer, lexicon_extender
+from .utils import phrase_representer, lexicon_extender, cosine_similarity
 from .chunkers import noun_chunker, edge_chunker
 
 class ExactMatcher:
@@ -352,7 +351,7 @@ class ThresholdMatcher:
                         continue
 
                     ## compute cosine similarity (1 - distance)
-                    similarity = 1 - spatial.distance.cosine(
+                    similarity = cosine_similarity(
                         term_representation, self.w2vec_model[word.text]
                     )
 
