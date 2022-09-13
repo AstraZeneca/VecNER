@@ -299,10 +299,10 @@ def rule_chunker(
 
 <h2> Third Party Licenses </h2>
 
-Third Party Libraries licenses for the dependencies:
+Third Party Libraries licenses for the dependencies:\
 [Spacy](https://github.com/explosion/spaCy) : [MIT License](https://github.com/explosion/spaCy/blob/master/LICENSE)\
 [Gensim](https://github.com/RaRe-Technologies/gensim) : [LGPL-2.1 license](https://github.com/RaRe-Technologies/gensim/blob/develop/COPYING)\
-[NLTK](https://github.com/nltk/nltk) : [Apache License 2.0](https://github.com/nltk/nltk/blob/develop/LICENSE.txt)\
+[NLTK](https://github.com/nltk/nltk) : [Apache License 2.0](https://github.com/nltk/nltk/blob/develop/LICENSE.txt)
 
 
 <h2> License </h2>
