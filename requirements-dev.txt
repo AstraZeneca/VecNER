@@ -21,7 +21,7 @@ preshed==3.0.6
 pydantic==1.8.2
 pyparsing==3.0.9
 regex==2022.7.25
-requests==2.28.1
+requests==2.31.0
 smart-open==5.2.1
 spacy==3.2.3
 spacy-legacy==3.0.9
